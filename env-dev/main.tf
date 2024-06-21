@@ -1,18 +1,18 @@
 env = "dev"
 tags = {
-  company      = "XYZ Co"
+  company      = "HCL Tech"
   bu_unit      = "Ecommerce"
-  project_name = "roboshop"
+  project_name = "BPK"
 }
-account_id             = "633788536644"
-default_vpc_id         = "vpc-0a8e3e6a0d6cb90d9"
-default_route_table_id = "rtb-0b9a867762d6530ba"
+account_id             = "590183663994"
+default_vpc_id         = "vpc-0bb6c1de1ffb3af1c"
+default_route_table_id = "rtb-0680407b075e837d2"
 default_vpc_cidr       = "172.31.0.0/16"
-route53_zone_id        = "Z0021413JFIQEJP9ZO9Z"
-kms                    = "arn:aws:kms:us-east-1:633788536644:key/36a1180a-d43b-4561-ab19-dc55e634b8fb"
-certificate_arn        = "arn:aws:acm:us-east-1:633788536644:certificate/f48fadb0-e24c-4370-90e8-d3718672a46e"
-bastion_cidrs          = ["172.31.37.78/32"]
-prometheus_cidrs       = ["172.31.41.244/32"]
+route53_zone_id        = "Z056640310WRA9RUJKYKR"
+#kms                    = "arn:aws:kms:us-east-1:633788536644:key/36a1180a-d43b-4561-ab19-dc55e634b8fb"
+#certificate_arn        = "arn:aws:acm:us-east-1:633788536644:certificate/f48fadb0-e24c-4370-90e8-d3718672a46e"
+bastion_cidrs          = ["172.31.40.220/32"]
+prometheus_cidrs       = ["172.31.35.66/32"]
 
 vpc = {
   main = {
