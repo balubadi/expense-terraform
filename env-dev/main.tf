@@ -23,3 +23,13 @@ vpc = {
     db_subnets     = ["10.10.6.0/24", "10.10.7.0/24"]
     azs            = ["us-east-1a", "us-east-1b"]
   }
+
+rds = {
+  main = {
+    allocated_storage      = 20
+    engine                 = "mysql"
+    engine_version         = "5.7.44"
+    instance_class         = "db.t3.micro"
+    parameter_group_family = "mysql5.7"
+  }
+}
