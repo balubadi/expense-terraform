@@ -4,9 +4,9 @@ tags = {
   bu_unit      = "Ecommerce"
   project_name = "BPK"
 }
-account_id                = "590183663994"
-aws_default_vpc_id         = "vpc-0bb6c1de1ffb3af1c"
-default_route_table_id     = "rtb-0680407b075e837d2"
+account_id             = "590183663994"
+default_vpc_id         = "vpc-0bb6c1de1ffb3af1c"
+default_route_table_id = "rtb-0680407b075e837d2"
 default_vpc_cidr       = "172.31.0.0/16"
 route53_zone_id        = "Z056640310WRA9RUJKYKR"
 #kms                    = "arn:aws:kms:us-east-1:633788536644:key/36a1180a-d43b-4561-ab19-dc55e634b8fb"
