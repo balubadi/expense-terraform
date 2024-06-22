@@ -23,3 +23,4 @@ vpc = {
     db_subnets     = ["10.10.6.0/24", "10.10.7.0/24"]
     azs            = ["us-east-1a", "us-east-1b"]
   }
+}
